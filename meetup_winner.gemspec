@@ -6,11 +6,11 @@ require 'meetup_winner/version'
 Gem::Specification.new do |spec|
   spec.name          = "meetup_winner"
   spec.version       = MeetupWinner::VERSION
-  spec.authors       = ["Jean Pierre Guarin"]
-  spec.email         = ["escribimepues@gmail.com"]
+  spec.authors       = ["Jean Pierre Guarin", "Oscar Rendon"]
+  spec.email         = ["escribimepues@gmail.com", "orendon@gmail.com"]
   spec.summary       = %q{Choose a lucky winner from a meetup event}
   spec.description   = %q{Choose a lucky winner from an meetup event attendance list}
-  spec.homepage      = "https://github.com/gomayonqui/meetup_winner"
+  spec.homepage      = "https://github.com/medellinrb/meetup_winner"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
